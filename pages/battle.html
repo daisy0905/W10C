@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h2 id="title">Battle runs!</h2>
+    <div id="battle-container">
+        <div id="userPlayer">
+            <div id="hp1"></div>
+            <div id="selection-container"></div>
+            <div>
+                <button onclick="attackOne()" class="button">Attack One</button>
+                <button onclick="attackTwo()" class="button">Attack Two</button>
+                <button onclick="attackThree()" class="button">Attack Three</button>
+                <button onclick="attackFour()" class="button">Attack Four</button>
+            </div>
+        </div>
+        <div>
+            <h2>VS</h2>
+        </div>
+        <div id="computerPlayer">
+            <div id="hp2"></div>
+            <img src="https://secure.img1-fg.wfcdn.com/im/98270403/resize-h800-w800%5Ecompr-r85/8470/84707680/Pokemon+Pikachu+Wall+Decal.jpg" alt="Pikachu">
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="../js/battle.js"></script>
+</body>
+</html>
